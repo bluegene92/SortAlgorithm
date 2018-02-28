@@ -5,31 +5,9 @@ namespace sorttest
 {
     class Program
     {
-        public static Dictionary<char, int> charValueDictionary = new Dictionary<char, int>();
-
         static void Main(string[] args)
         {
-
-            //Dictionary<char, int> charValueDictionary = new Dictionary<char, int>();
-
-            int startValue = 0;
-            for (char lowercaseLetter = 'a', 
-                    uppercaseLetter = 'A'; 
-                    uppercaseLetter <= 'Z';)
-            {
-                charValueDictionary.Add(lowercaseLetter, startValue++);
-                charValueDictionary.Add(uppercaseLetter, startValue++);
-                lowercaseLetter++;
-                uppercaseLetter++;
-            }
-
-            charValueDictionary.Add(' ', 52);
-
-            foreach (KeyValuePair<char, int> kvp in charValueDictionary)
-            {
-                Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
-            }
-
+      
             string[] context = new string[] {
                 "Software Architecture and Design",
                 "Architecture and Design Software",
@@ -52,38 +30,15 @@ namespace sorttest
                 "central OK univ of",
                 "OK univ of central"
             };
+            List<string> myList = new List<string>(context);
+            myList.Sort(new StringComparer());
 
             Console.WriteLine("There is " + context.Length + " lines");
 
-            Array.Sort(context, SortByAlphabet);
-
-            for (int i = 0; i < context.Length; ++i)
+            foreach (var s in myList)
             {
-                Console.WriteLine(context[i]);
+                Console.WriteLine(s);
             }
         }
-
-        public static int SortByAlphabet(string s1, string s2)
-        {
-            int charCount = Math.Min(s1.Length, s2.Length);
-            Console.WriteLine("The shorter string is: " + charCount);
-            for (int i = 0; i < charCount; ++i)
-            {
-                int v1 = charValueDictionary[s1[i]];
-                int v2 = charValueDictionary[s2[i]];
-                Console.WriteLine("The value of " + s1[i] + " is " + v1);
-                Console.WriteLine("The value of " + s2[i] + " is " + v2);
-                Console.WriteLine();
-
-                if (v1 == v2) continue;
-
-                if (v1 < v2) return -1;
-                else if (v1 > v2) return 1;
-                
-            }
-            return 0;
-        }
-
-
     }
 }

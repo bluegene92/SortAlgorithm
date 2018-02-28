@@ -9,3 +9,14 @@ c:\users\dattr\source\repos\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.A
 c:\users\dattr\source\repos\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.AssemblyInfo.cs
 c:\users\dattr\source\repos\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.dll
 c:\users\dattr\source\repos\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.pdb
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\bin\Debug\netcoreapp2.0\sorttest.deps.json
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\bin\Debug\netcoreapp2.0\sorttest.runtimeconfig.json
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\bin\Debug\netcoreapp2.0\sorttest.runtimeconfig.dev.json
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\bin\Debug\netcoreapp2.0\sorttest.dll
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\bin\Debug\netcoreapp2.0\sorttest.pdb
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.csprojResolveAssemblyReference.cache
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.csproj.CoreCompileInputs.cache
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.AssemblyInfoInputs.cache
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.AssemblyInfo.cs
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.dll
+C:\Users\dat\Desktop\SortAlgorithm\sorttest\sorttest\obj\Debug\netcoreapp2.0\sorttest.pdb
